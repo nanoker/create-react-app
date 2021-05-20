@@ -3,6 +3,8 @@ import axios from 'axios';
 import Header from './components/Header/Header';
 import TodoList from './components/TodoList/TodoList';
 import Tasks from './components/Tasks/Tasks';
+import TodoListFooter from './components/TodoListFooter/TodoListFooter';
+
 import './styles.scss';
 
 function App() {
@@ -14,12 +16,13 @@ function App() {
         const listOfTodosDataBase = res.data;
         setListOfTodos(listOfTodosDataBase)
         });
-      })
+      },[]);
   return (
     <div className="App">
       <Header />
       <TodoList updateListOfTodos={setListOfTodos} existingListOfTodos={listOfTodos}/>
       <Tasks updateListOfTodos={setListOfTodos} existingListOfTodos={listOfTodos} />
+      <TodoListFooter existingListOfTodos={listOfTodos}/>
     </div>
   );
 }
