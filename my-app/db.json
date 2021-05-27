@@ -1,18 +1,8 @@
 {
   "listOfTodos": [
     {
-      "id": "8f5fbac7-15ee-40b6-bd01-65af6500d391",
-      "title": "s",
-      "completed": false
-    },
-    {
-      "id": "36a9ac75-b57a-462f-845f-bf85bcc2a44f",
-      "title": "d",
-      "completed": false
-    },
-    {
-      "id": "9cd2a30f-a733-44f1-ac34-e2ebbb9c247e",
-      "title": "dz",
+      "id": "c3d41bdb-e553-4a80-9259-41e1b2928d8c",
+      "title": "dd",
       "completed": false
     }
   ]
